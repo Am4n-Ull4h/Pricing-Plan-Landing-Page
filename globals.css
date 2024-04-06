@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #09090b;
+}
+
+.btn {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  height: 35px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 14px;
+}
+.btn-all {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  background-clip: text;
+  color: transparent;
+}
+.btn3 {
+  color: white;
+}
+.btn2 {
+  background: #261e2b;
+  height: 96%;
+  width: 98%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shade-h1 {
+  color: transparent;
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+table tr:nth-child(odd) td {
+  padding: 40px 0px;
+  color: rgba(185, 204, 219, 0.726);
+  border-left: 1px solid rgba(245, 245, 245, 0.365);
+  text-align: center;
+  font-size: 13px;
+}
+table tr:nth-child(odd) td:nth-child(1) {
+  padding: 40px 0px;
+  color: white;
+  border-left: 1px solid transparent;
+  text-align: start;
+  padding-left: 30px;
+}
+
+table tr:nth-child(even) td {
+  color: rgba(185, 204, 219, 0.726);
+  border-left: 1px solid rgba(245, 245, 245, 0.365);
+  text-align: center;
+  font-size: 13px;
+}
+table tr:nth-child(even) td:nth-child(1) {
+  color: white;
+  border-left: 1px solid transparent;
+  text-align: start;
+  padding-left: 30px;
+}
+table tr:nth-child(even) {
+  background: #261e2b;
+}
+.Table-btn {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  height: 35px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 14px;
+}
+.Table-btn2 {
+  background: #261e2b;
+  height: 98%;
+  width: 98%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Table-btn3 {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  background-clip: text;
+  color: transparent;
+}
+.Brave-Border {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  height: 55px;
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 14px;
+  box-shadow: 0px 5px 10px rgba(128, 0, 128, 0.146),
+    0px 10px 10px rgba(193, 18, 193, 0.068);
+}
+.brv2 {
+  background: black;
+  height: 98%;
+  width: 97%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pricing-btn {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  height: 40px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 14px;
+  position: relative;
+}
+
+.Pricing-btn2 {
+  background: black;
+  position: absolute;
+  height: 95%;
+  width: 98%;
+  border-radius: 50px;
+}
+.middle-card {
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-border {
+  height: 99.5%;
+  width: 99%;
+  background: #261e2b;
+}
+
+.Plans-star1 {
+  position: absolute;
+  right: -20px;
+  top: -50px;
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  background-clip: text;
+  color: transparent;
+  font-size: 30px;
+}
+
+.Plans-star2 {
+  position: absolute;
+  left: 30%;
+  bottom: -35px;
+  background: linear-gradient(90deg, #9a57ee, #f35cb9, #ee9a3d);
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+}
+
+.popular {
+  background-color: #c640dd;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+.hottest {
+  background-color: #e5463b;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+.Brave-div {
+  height: 200px;
+  width: 200px;
+  box-shadow: -10px -30px 10px 50px #ee9b3d6d;
+  filter: blur(90px);
+}
+
+.Brave-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.493);
+}
